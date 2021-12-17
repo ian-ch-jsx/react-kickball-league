@@ -1,0 +1,1 @@
+//render all players list
