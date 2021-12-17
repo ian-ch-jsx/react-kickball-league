@@ -1,5 +1,3 @@
-// Fetch team Data
-// map through teams to display link to team page
 import { useEffect, useState } from 'react';
 import { getTeams } from '../../services/teams';
 import { Link } from 'react-router-dom';
@@ -22,7 +20,9 @@ export default function Teams() {
     <ul>
       {teams.map((team) => (
         <li key={team.id}>
-          <Link to={`/teams:${team.id}`}>{team.name}</Link>
+          <Link key={team.id} to={`/teams:${team.id}`}>
+            {team.name}
+          </Link>
         </li>
       ))}
     </ul>
