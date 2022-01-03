@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
 import { getPlayersById } from '../../services/players';
-import { Link } from 'react-router-dom';
-import Players from './Players';
 
 export default function Player(props) {
-  const [player, setPlayer] = useState({ team: [] });
+  const [player, setPlayer] = useState({ players: [] });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -12,11 +10,14 @@ export default function Player(props) {
       setPlayer(data[0]);
     };
     fetchData();
-  }, []);
+  }, [props.match.params.id]);
+  console.log(player);
   return (
     <div>
       <h1>{player.name}</h1>
       <h2>player info</h2>
+      <p>{player.position}</p>
+      <p></p>
     </div>
   );
 }
