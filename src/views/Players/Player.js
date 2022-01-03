@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getPlayersById } from '../../services/players';
 import { Link } from 'react-router-dom';
+import Players from './Players';
 
 export default function Player(props) {
   const [player, setPlayer] = useState({ team: [] });
