@@ -10,6 +10,7 @@ import Team from './views/Teams/Team';
 function App() {
   return (
     <div className="App">
+      <h1>PNW Kickball League</h1>
       <BrowserRouter>
         <header>
           <NavLink to="/" exact>
