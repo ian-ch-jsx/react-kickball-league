@@ -22,7 +22,7 @@ export default function Players() {
     <ul>
       {players.map((player) => (
         <li key={player.id}>
-          <Link to={`/players:${player.id}`}>{player.name}</Link>
+          <Link to={`/players/${player.id}`}>{player.name}</Link>
         </li>
       ))}
     </ul>
