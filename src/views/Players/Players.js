@@ -5,7 +5,7 @@ import { getPlayers } from '../../services/players';
 
 export default function Players() {
   const [players, setPlayers] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
