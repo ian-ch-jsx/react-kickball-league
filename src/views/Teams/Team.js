@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getTeamById } from '../../services/teams';
+import './Teams.css';
 
 export default function Team(props) {
   const [team, setTeam] = useState([]);
@@ -16,13 +17,15 @@ export default function Team(props) {
   if (loading) return <h1>loading</h1>;
 
   return (
-    <div>
+    <div className="container">
       <h1>{team.name}</h1>
       <h2>Players</h2>
       {team.players.map((player) => (
-        <Link to={`/players/${player.id}`} key={player.id}>
-          {player.name}
-        </Link>
+        <p key={player.id}>
+          <Link to={`/players/${player.id}`} key={player.id}>
+            {player.name}
+          </Link>
+        </p>
       ))}
     </div>
   );

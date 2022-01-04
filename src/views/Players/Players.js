@@ -19,12 +19,13 @@ export default function Players() {
   if (loading) return <h1>loading</h1>;
 
   return (
-    <ul>
+    <div className="container">
+      <h1>Players</h1>
       {players.map((player) => (
-        <li key={player.id}>
+        <p key={player.id}>
           <Link to={`/players/${player.id}`}>{player.name}</Link>
-        </li>
+        </p>
       ))}
-    </ul>
+    </div>
   );
 }
