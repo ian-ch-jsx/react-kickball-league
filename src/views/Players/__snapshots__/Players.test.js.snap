@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders team name 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Players
+    </h1>
+    <p>
+      <a
+        href="/players/1"
+      >
+        Bennie Jetts
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/12"
+      >
+        Betty Grey
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/7"
+      >
+        Bud E. Guy
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/8"
+      >
+        Buster Rimes
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/9"
+      >
+        Deb E. Downer
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/13"
+      >
+        Dwayne Elizondo Mountain Dew Herbert Camacho
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/15"
+      >
+        Frito P.
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/5"
+      >
+        Gary Coolman
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/2"
+      >
+        Hans Olo
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/10"
+      >
+        Jayne Phonda
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/14"
+      >
+        Joe Bauers
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/11"
+      >
+        Kara Whollot
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/3"
+      >
+        Ron Long
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/4"
+      >
+        Shorty Biggum
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/6"
+      >
+        Terry Cruise
+      </a>
+    </p>
+  </div>
+</div>
+`;
