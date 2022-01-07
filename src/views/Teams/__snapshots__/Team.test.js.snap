@@ -1,9 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders team name 1`] = `
+exports[`renders team name and players 1`] = `
 <div>
-  <h1>
-    loading
-  </h1>
+  <div
+    class="container"
+  >
+    <h1>
+      Bridge City Sneakers
+    </h1>
+    <h2>
+      Players
+    </h2>
+    <p>
+      <a
+        href="/players/2"
+      >
+        Hans Olo
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/3"
+      >
+        Ron Long
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/4"
+      >
+        Shorty Biggum
+      </a>
+    </p>
+    <p>
+      <a
+        href="/players/1"
+      >
+        Bennie Jetts
+      </a>
+    </p>
+  </div>
 </div>
 `;

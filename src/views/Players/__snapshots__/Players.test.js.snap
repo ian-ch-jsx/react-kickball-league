@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders team name 1`] = `
+exports[`renders list of players 1`] = `
 <div>
   <div
     class="container"

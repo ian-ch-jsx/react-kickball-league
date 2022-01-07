@@ -1,13 +1,13 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Player from './Player';
 
-test.skip('renders team name', async () => {
+test('renders player name', async () => {
   const { container } = render(
     <MemoryRouter>
       <Player match={{ params: { id: 1 } }} />
     </MemoryRouter>
   );
-  await screen.findByText('Betty Grey Deb E. Downer');
+  await screen.findByText('Bennie Jetts');
   expect(container).toMatchSnapshot();
 });

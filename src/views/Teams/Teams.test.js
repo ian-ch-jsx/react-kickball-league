@@ -1,15 +1,15 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Teams from './Team';
+import Teams from './Teams';
 
-test.skip('should render an edit form', async () => {
+test('renders list of teams', async () => {
   const { container } = render(
     <MemoryRouter>
       <Teams />
     </MemoryRouter>
   );
 
-  await screen.findByText('Bridge City Sneakers');
+  await screen.findByText('Bridge City Sneakers', 'VanCougers');
 
   expect(container).toMatchSnapshot();
 });
