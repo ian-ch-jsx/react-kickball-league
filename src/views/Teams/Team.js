@@ -11,6 +11,7 @@ export default function Team(props) {
       const data = await getTeamById(props.match.params.id);
       setTeam(data[0]);
       setLoading(false);
+      console.log(data);
     };
     fetchData();
   }, [props.match.params.id]);

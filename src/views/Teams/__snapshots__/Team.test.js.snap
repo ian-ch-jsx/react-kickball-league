@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders team name 1`] = `
+<div>
+  <h1>
+    loading
+  </h1>
+</div>
+`;
